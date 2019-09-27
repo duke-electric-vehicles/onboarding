@@ -4,6 +4,26 @@ When contributing to any of our repositories there is a standard workflow you sh
 
 [Here](https://github.com/joshnh/Git-Commands) is a list of useful git commands, however all of the basic ones you need can be found below. If you have any questions don't hesitate to reach out to one of us. 
 
+##### Setting up SSH key
+Before you can run any git commands from the command line you need to add an ssh key to your github account. To check if you have a key already enter the following command:
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
+If you already have a key generated copy it and go [here](https://github.com/settings/keys) to add the new ssh key to your account.
+
+If you need to generate a new ssh key you can use the following command.
+
+```bash
+ssh-keygen -t rsa -b 4096
+```
+
+Then, to copy the key enter the following cat command again and go [here](https://github.com/settings/keys) to add the new ssh key to your account.
+
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
 ###### Cloning a repository
 
 You can clone a git repository (like this one) by using the ```git clone``` command. You may need to add an ssh key to your account before you are able to clone the repository. Help on that can be found [Here](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account).
