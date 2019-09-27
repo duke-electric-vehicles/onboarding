@@ -75,7 +75,7 @@ git add .
 
 Then you can commit your changes using the following command.
 ```bash
-git commit -m "[Type what you did here]"
+git commit -m "[Short message describing changes you made]"
 ```
 
 ###### Pushing changes to Github and creating pull request
