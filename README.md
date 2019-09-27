@@ -9,7 +9,7 @@ When contributing to any of our repositories there is a standard workflow you sh
 You can clone a git repository (like this one) by using the ```git clone``` command. You may need to add an ssh key to your account before you are able to clone the repository. Help on that can be found [Here](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account).
 
 ```bash
-git clone git@github.com:duke-electric-vehicles/git-workflow.git
+git clone git@github.com:duke-electric-vehicles/onboarding.git
 ```
 
 ###### Branching
