@@ -32,6 +32,8 @@ You can clone a git repository (like this one) by using the ```git clone``` comm
 git clone git@github.com:duke-electric-vehicles/onboarding.git
 ```
 
+This will clone the repository into your current directory, which can be seen by typing the ```ls``` command. Navigate into the repository by typing ```cd onboarding```.
+
 ###### Branching
 
 Once you have cloned the repository you should be able to view all of the branches in the repository by typing.
