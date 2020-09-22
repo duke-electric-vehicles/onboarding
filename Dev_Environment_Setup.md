@@ -38,7 +38,7 @@ To start and enter the container, run
 ```
 docker run -it <IMAGENAME>
 ```
-Where <IMAGENAME> is the repository name you noted in the previous step. Your bash prompt should now change to reflect the docker container. It should show something like `root@...:/#`
+Where \<IMAGENAME\> is the repository name you noted in the previous step. Your bash prompt should now change to reflect the docker container. It should show something like `root@...:/#`
   
 Within the docker container, run
 ```
