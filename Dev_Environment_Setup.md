@@ -5,7 +5,7 @@ Our autonomous system uses the [Robot Operating System](https://www.ros.org/) fo
 ### 1. Docker on either Windows or Mac
 This method just requires a quick download and a few commands.
 ### 2. Native Dual-Boot
-This requires more disk space and dedication than the previous method but provides a clean / efficient environment. You will still be using Docker to test ROS packages but will be able to take full advantage of a customizable Linux environment with a variety of command line tools.
+This requires more disk space and dedication than the previous method but provides a clean / efficient environment. You will still be using Docker to test ROS packages but will be able to take full advantage of a customizable Linux environment with a variety of command line tools. At least 40GB of free space is recommended if you choose this option.
 
 ### Important: For both setups, you will be using docker to test your ROS code
 
@@ -17,7 +17,16 @@ This requires more disk space and dedication than the previous method but provid
 **For Mac:** click [here](https://docs.docker.com/docker-for-mac/install/). MacOS doesn't have any issues with a virtualization backend. As long as you are on a recent version of macOS, you should be fine.
 
 ## Instructions for Option 2:
-*TODO*
+**Creating a Disk Partition:** In order to dual-boot from your computer, you first need to create a disk partition. A disk partition is an unallocated amount of space in your hard drive. You will be using this unallocated space to contain Ubuntu. The following instructions apply to Windows computers:
+1. Go to Windows Start and search for "partition" and click on the first result.
+2. On your main disk (generally Disk 0), hover over to your C: Disk and right click on it. Then selected "Shrink Volume"
+3. In the field that says "Enter total amount of space to shrink by in MB", type in "40,000" and click shrink. This will create a new 40GB partition.
+4. Save all of your changes and exit the window.
+
+**Installing Ubuntu:** For instrucitons on installing Ubuntu on a Windows computer, go ahead and **carefully** follow the instructions in this link: https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/ 
+
+
+Mac instructions coming soon.
 
 
 ## Installing ROS into the Docker Container:
