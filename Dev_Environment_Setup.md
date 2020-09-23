@@ -25,12 +25,9 @@ This requires more disk space and dedication than the previous method but provid
 3. In the field that says "Enter total amount of space to shrink by in MB", type in "40,000" and click shrink. This will create a new 40GB partition.
 4. Save all of your changes and exit the window.
 
-**Installing Ubuntu:** For instrucitons on installing Ubuntu on a Windows computer, go ahead and **carefully** follow the instructions in this link: https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/ 
-
-
+**Installing Ubuntu:** For instructions on installing Ubuntu on a Windows computer, go ahead and **carefully** follow the instructions in this link: https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/ 
 
 Mac instructions coming soon.
-
 
 ## Installing ROS into the Docker Container:
 **Overview of Docker:** Docker allows you to run many different environments. Docker "images" are templates for creating Docker "containers." The usual Docker workflow consists of writing your code locally. Creating a docker container from a pre-existing image, and mounting your code into the container. Then, you can test your code with ROS and make edits. Once you are done with your testing session, you exit Docker and the container is automatically deleted (but your code is saved on your local machine).
