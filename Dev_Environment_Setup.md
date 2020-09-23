@@ -17,6 +17,8 @@ This requires more disk space and dedication than the previous method but provid
 **For Mac:** click [here](https://docs.docker.com/docker-for-mac/install/). MacOS doesn't have any issues with a virtualization backend. As long as you are on a recent version of macOS, you should be fine.
 
 ## Instructions for Option 2:
+**Note:** It is recommended that you create a Windows backup before proceeding in the rare event of data corruption. We are not responsible for any damage to your computer if the installation fails.
+
 **Creating a Disk Partition:** In order to dual-boot from your computer, you first need to create a disk partition. A disk partition is an unallocated amount of space in your hard drive. You will be using this unallocated space to contain Ubuntu. The following instructions apply to Windows computers:
 1. Go to Windows Start and search for "partition" and click on the first result.
 2. On your main disk (generally Disk 0), hover over to your C: Disk and right click on it. Then selected "Shrink Volume"
@@ -25,7 +27,7 @@ This requires more disk space and dedication than the previous method but provid
 
 **Installing Ubuntu:** For instrucitons on installing Ubuntu on a Windows computer, go ahead and **carefully** follow the instructions in this link: https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/ 
 
-**Note:** It is recommended that you create a Windows backup in the rare event of data corruption. We are not responsible for any damage to your computer if the installation fails.
+
 
 Mac instructions coming soon.
 
