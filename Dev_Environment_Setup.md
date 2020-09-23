@@ -25,6 +25,7 @@ This requires more disk space and dedication than the previous method but provid
 
 **Installing Ubuntu:** For instrucitons on installing Ubuntu on a Windows computer, go ahead and **carefully** follow the instructions in this link: https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/ 
 
+**Note:** It is recommended that you create a Windows backup in the rare event of data corruption. We are not responsible for any damage to your computer if the installation fails.
 
 Mac instructions coming soon.
 
