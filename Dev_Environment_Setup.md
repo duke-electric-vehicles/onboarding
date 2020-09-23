@@ -36,7 +36,7 @@ MacOS: For installing Ubunutu on MacOS (Catalina or lower), follow along this li
 **Getting the ROS Docker Image**
 Start Docker (this will slightly vary depending on your environment), and run:
 ```
-docker pull melodic-ros-core
+docker pull ros:melodic-ros-core
 ```
 This will download an Ubuntu environment with ROS installed. Once the command finishes, run
 ```
