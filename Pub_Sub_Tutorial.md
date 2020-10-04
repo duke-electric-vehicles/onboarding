@@ -60,5 +60,7 @@ rostopic echo /chatter
 ```
 This will show you the data on the /chatter topic. The data will continue to flow until you press CTL + C to exit the command.
 
+These command will be extremely useful for debugging!
+
 # Extension Task
 Currently, your pub / sub is communicating with string messages. For the electric vehicle, we will mostly work with location and orientation data. Research the ROS “Twist” message and change your pub / sub to use Twist messages instead of strings.
