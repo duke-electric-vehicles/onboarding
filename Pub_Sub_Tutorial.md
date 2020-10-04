@@ -49,5 +49,16 @@ Now, you should be ready to move on to writing a pub / sub. Make sure all of you
 # Running the Pub / Sub
 [Running the Publisher / Subscriber](http://wiki.ros.org/ROS/Tutorials/ExaminingPublisherSubscriber)
 
+# Important Command: rostopic
+This command allows you to view information about current topics. While your pub / sub is running, try the following command
+```
+rostopic list
+```
+You should see a topic called /chatter. This is the new topic created by your publisher. Try to look through the code and find where this is defined. You can also run
+```
+rostopic echo /chatter
+```
+This will show you the data on the /chatter topic. The data will continue to flow until you press CTL + C to exit the command.
+
 # Extension Task
 Currently, your pub / sub is communicating with string messages. For the electric vehicle, we will mostly work with location and orientation data. Research the ROS “Twist” message and change your pub / sub to use Twist messages instead of strings.
