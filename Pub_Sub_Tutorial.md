@@ -9,7 +9,7 @@ You can think of mounting code as plugging in a usb drive to your computer. When
 In order to make this process easy, we will be using Docker-Compose. This service makes starting / stopping the docker container much easier (and will also automatically mount your code once it is set up).
 
 ## Docker Compose
-**Note**: We recommend completing the following instructions by using the [Nano text editor](https://www.howtoforge.com/linux-nano-command/) to gain familiarity with the Linux environment. Alternatively, you can also use [Vim](https://www.howtoforge.com/vim-basics), but Nano will suffice.
+**Note**: We recommend completing the following instructions by using the [Nano text editor](https://www.howtoforge.com/linux-nano-command/) to gain familiarity with the Linux environment. Alternatively, you can also use [vim](https://www.howtoforge.com/vim-basics), but Nano will suffice.
 
 First, if you haven’t already, create a folder on your local machine that will contain all of your code for DEV. Now, enter this folder and create a new file called docker-compose.yml. This file is known as a Docker Compose YAML file, which contains all of your container settings (mounting code, privileges, image version, etc). Now, open this file and add the following code:
 ```
