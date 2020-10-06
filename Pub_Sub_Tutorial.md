@@ -46,6 +46,8 @@ This will stop the container.
 Now, you should be ready to move on to writing a pub / sub. Make sure all of your catkin packages are saved within the /root folder when working on the docker container.
 
 # Writing a Pub / Sub
+Now that we are switching to docker compose, we will be starting from scratch. Create a catkin_ws and also create a beginner_tutorial package as explained in the ros tutorials. Then, proceed with the pub / sub.
+
 [Publisher Subscriber Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29)
 
 # Running the Pub / Sub
