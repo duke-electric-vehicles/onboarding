@@ -119,3 +119,7 @@ git push origin [name of your branch]
 ```
 
 If you go into your repository on github you should be able to see the branch you created and all of your changes. If you are ready for your code to be pulled into the master branch create a pull request on github.
+
+---
+
+### **Now that you understand the basics of Git, head over to the autonomous-vehicle repository to learn about our codebase and the Robot Operating System (ROS)**
